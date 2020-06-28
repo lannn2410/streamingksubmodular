@@ -1,6 +1,6 @@
 This zip includes:
 + Source code of our 2 streaming algorithms, greedy and SGr.
-+ Facebook dataset (in "data" folder) for testing the algorithms. Due to file size restriction in Github, please find the Sensor dataset in Intel Lab Data (http://db.csail.mit.edu/labdata/labdata.html).
++ Facebook and Sensor dataset (in "data" folder) for testing the algorithms.
 
 Since estimating F in influence maximization is very time consuming, our code uses OpenMP for parallelization (https://en.wikipedia.org/wiki/OpenMP).
 
